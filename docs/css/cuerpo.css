@@ -1,0 +1,69 @@
+/* SELECTOR UNIVERSAL= todo el estilo de la pagina cambia */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para etiqueta del encabezado */
+
+
+/* estilos para el logo */
+.logo {
+    font-size: 20px;
+    color: azure;
+    font-weight: bold;
+}
+
+
+/* Selector de tiqueta */
+body {
+    background-image: url(itca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/* selector para dar estilos al main */
+main {
+    top: 80px;
+    background-color: rgba(255, 255, 255, 0.679);
+    box-shadow: 2px 5px 20px rgba(9, 64, 120, 0.98);
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+/* LETRA CAPITAL: Da estilo a la primera letra del parrafo */
+.letracapital::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    margin: 10px;
+
+
+}
+
+/* estilos para la section, article, h1, h2 */
+section article h1,
+section article h2 {
+    text-align: center;
+    
+}
+
+/* estilo para los parrafos */
+section article p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+.mapa {
+    text-align: center;
+}
+li {
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
